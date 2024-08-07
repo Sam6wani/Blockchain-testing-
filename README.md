@@ -1,0 +1,6 @@
+We identified Oyente, an open-source tool compatible with Ethereum simulator platforms (docker pull luongnguyen/oyente), through extensive searches in online digital libraries like GitHub and ACM.
+Applied Oyente’s symbolic execution to analyse smart contract bytecode and the Ethereum global state, detecting bugs in deployed contracts by emulating the Ethereum Virtual Machine (EVM) execution model.
+Utilised XBlock-ETH, which processes and simplifies a rich dataset of 8.1 million blocks from Ethereum, making it suitable for direct analysis. This dataset addresses the challenges of synchronising and analysing Ethereum’s complex and heterogeneous open-source data.
+Created an automated test environment, we installed and configured blockchain test nodes Geth and Parity, along with libraries such as web3.js, Ether.js, Web3.py, and solc 5.0.
+Obtained a Benchmark Dataset that labels programs based on their correct or incorrect usage of security APIs, providing an evaluation dataset for Application Security Testing tools.
+For Oyente’s performance analysis, I tested the detector tools against known vulnerabilities in controlled environments, comparing the results to industry standards and benchmarks. Following this, I evaluated the tools using metrics like precision, recall, F-score, and false positive rate.
